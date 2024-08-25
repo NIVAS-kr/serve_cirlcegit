@@ -1,0 +1,64 @@
+.check-customer-container {
+    box-sizing: border-box;
+    margin: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.check-customer-header {
+    background-color: #008080;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.check-customer-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.check-customer-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.check-customer-input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.check-customer-input-label {
+    margin-right: 10px;
+}
+
+.check-customer-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.check-customer-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.search-btn {
+    background-color: #008080;
+    color: white;
+}
+
+.create-btn {
+    background-color: #008080;
+    color: white;
+}

@@ -1,0 +1,101 @@
+.branch-form-container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.branch-form-header {
+    background-color: #008080;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.branch-form {
+    padding: 20px;
+}
+
+.branch-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.branch-form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.branch-form-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.branch-form-input {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.branch-form-checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.branch-form-checkbox-group label {
+    margin-bottom: 10px;
+}
+
+.branch-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.branch-form-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.branch-cancel-btn {
+    background-color: lightgray;
+    color: black;
+    margin-right: 10px;
+}
+
+.branch-create-btn {
+    background-color: #008080;
+    color: white;
+}
+
+
+
+/* Modal CSS */
+
+.create-cust-container{
+    position: fixed;  
+    
+  }
+  .create-cust-wrapper{
+    position: absolute;
+    background: transparent;
+    width: 100dvw;
+    height: 100dvh;
+  }
+
+  @media (max-width:600px) {
+    .branch-form-container{
+        width: 85%;
+    }
+  }
